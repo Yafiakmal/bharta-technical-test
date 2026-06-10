@@ -1,3 +1,5 @@
+# Selamat Datang
+
 - **Frontend** : Next.js 16 - port 3000
 - **API Gateway** : Go Fiber - port 8000 [[main.go](./backend/api-gateway/main.go)]
 - **Product Service** : Go Fiber - port 8001 [[main.go](./backend/product-service/main.go)]
@@ -34,7 +36,11 @@ cd bharta-technical-test
 
 ```bash
 docker compose up -d
-# atau
+```
+
+atau
+
+```bash
 docker volume create mongo_data
 
 docker run -d \
